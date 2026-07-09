@@ -1,0 +1,15 @@
+[ 2026-07-09 14:00:31,541 ] 16 network_security.logging.logger - INFO - Initiate the data ingestion
+[ 2026-07-09 14:00:35,058 ] 69 network_security.logging.logger - INFO - Performed train test split on the dataframe
+[ 2026-07-09 14:00:35,058 ] 71 network_security.logging.logger - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[ 2026-07-09 14:00:35,058 ] 79 network_security.logging.logger - INFO - Exporting train and test file path.
+[ 2026-07-09 14:00:35,091 ] 88 network_security.logging.logger - INFO - Exported train and test file path.
+[ 2026-07-09 14:00:35,091 ] 18 network_security.logging.logger - INFO - Data Initiation Completed
+[ 2026-07-09 14:00:35,122 ] 22 network_security.logging.logger - INFO - Initiate the data Validation
+[ 2026-07-09 14:00:35,241 ] 32 network_security.logging.logger - INFO - Required number of columns:2
+[ 2026-07-09 14:00:35,241 ] 33 network_security.logging.logger - INFO - Data frame has columns:31
+[ 2026-07-09 14:00:35,241 ] 32 network_security.logging.logger - INFO - Required number of columns:2
+[ 2026-07-09 14:00:35,241 ] 33 network_security.logging.logger - INFO - Data frame has columns:31
+[ 2026-07-09 14:00:35,343 ] 24 network_security.logging.logger - INFO - data Validation Completed
+[ 2026-07-09 14:00:35,343 ] 27 network_security.logging.logger - INFO - DATA TRANSFORMATION STARTED
+[ 2026-07-09 14:00:35,343 ] 63 network_security.logging.logger - INFO - Entered initiate_data_transformation method of DataTransformation class
+[ 2026-07-09 14:00:35,343 ] 65 network_security.logging.logger - INFO - Starting data transformation
