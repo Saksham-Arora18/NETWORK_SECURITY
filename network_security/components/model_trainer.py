@@ -25,7 +25,10 @@ from sklearn.ensemble import (
 )
 import mlflow
 from urllib.parse import urlparse
+import dagshub
 
+import dagshub
+dagshub.init(repo_owner='saksham0666', repo_name='NETWORK_SECURITY', mlflow=True)
 
 class ModelTrainer:
     def __init__(self,model_trainer_config:ModelTrainerConfig,data_transformation_artifact:DataTransformationArtifact):
