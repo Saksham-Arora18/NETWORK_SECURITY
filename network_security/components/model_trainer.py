@@ -28,6 +28,7 @@ from urllib.parse import urlparse
 import dagshub
 
 import dagshub
+dagshub.auth.add_app_token(os.getenv("DAGSHUB_USER_TOKEN"))
 dagshub.init(repo_owner='saksham0666', repo_name='NETWORK_SECURITY', mlflow=True)
 
 class ModelTrainer:
