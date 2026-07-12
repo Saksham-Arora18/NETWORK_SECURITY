@@ -3,11 +3,14 @@
 An end-to-end, production-style machine learning pipeline that detects **phishing / network security threats** from URL and website-based features. Built with a modular architecture (ingestion → validation → transformation → training → deployment) instead of a single notebook, so every stage is independent, testable, and easy to debug.
 
 ---
-## 🎥 Demo Video
 
-Network Security MLOps — AWS EC2 Live Deployment & FastAPI Service-https://youtu.be/M1hNGQvkJ1Y
-Network Security MLOps — AWS ECR Docker Image Registry-https://youtu.be/41bbjl1QnkA
-Network Security MLOps — AWS S3 Bucket Setup (Model Artifact Storage)-https://youtu.be/ar9akpAy4E4
+## 🎥 Demo Videos
+
+- [AWS S3 Bucket Setup (Model Artifact Storage)](https://youtu.be/ar9akpAy4E4)
+- [AWS ECR — Docker Image Registry](https://youtu.be/41bbjl1QnkA)
+- [AWS EC2 Live Deployment & FastAPI Service](https://youtu.be/M1hNGQvkJ1Y)
+
+---
 
 ## 📌 Problem Statement
 
@@ -141,16 +144,6 @@ python push_data.py
 # 5. Run the full training pipeline
 python main.py
 ```
-
----
-
-## 🎥 Demo Video
-
-Network Security MLOps — AWS EC2 Live Deployment & FastAPI Service-https://youtu.be/M1hNGQvkJ1Y
-Network Security MLOps — AWS ECR Docker Image Registry-https://youtu.be/41bbjl1QnkA
-Network Security MLOps — AWS S3 Bucket Setup (Model Artifact Storage)-https://youtu.be/ar9akpAy4E4
-
-A short walkthrough covering the GitHub Actions CI/CD pipeline running end-to-end, the Docker image being built and pushed to ECR, and the deployed FastAPI service running live on an AWS EC2 instance.
 
 ---
 
